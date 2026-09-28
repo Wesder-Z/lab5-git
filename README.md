@@ -68,4 +68,4 @@ python -m unittest discover -v
 
 GitHub Actions автоматически выполняет проверку синтаксиса, стиля и все
 unit-тесты при отправке изменений в ветку `main`, создании тега `lab5` и в
-pull request.
+pull request. Кэш зависимостей CI привязан к файлу `requirements-dev.txt`.
